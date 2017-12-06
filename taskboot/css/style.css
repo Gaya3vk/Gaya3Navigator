@@ -1,0 +1,378 @@
+/*Comman Properties*/
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+body {
+	font-size: 12px;
+	margin: 0; 
+}
+i
+{
+	padding:0px 10px 0px 0px;
+	color:black;
+}
+.nav li a,.color,.colors h6,.policy{
+	font-weight: normal;
+    color: #34ac98;
+    font-family: times new roman;
+    font-size: 17px;
+}
+.block li a h5{
+	font-size:20px;
+	margin-bottom:0;
+}
+.block li a p{
+	font-size:11px;
+}
+.row{
+	padding:35px;
+}
+.food{
+	width:100%;
+	height:450px;
+}
+.block li{
+  background:#eff8f7;
+  border-right: 1px solid #E5E5E5;
+}
+.block{
+	padding-right: 0; 	
+}
+.block li a{
+	padding:0;
+}
+.cookbook{
+	box-shadow: 2px 2px 5px #888888;
+	border:2px solid #888888;
+	 padding:10px;
+}
+.row,.tileblock,.tiles{
+	padding: 0;
+}
+.subscribe{
+	border-top: 1px dashed #E5E5E5;
+    border-bottom: 1px dashed #E5E5E5;
+    margin-bottom: 29px;
+    line-height: 1em;
+}
+.newsletter p,.news,.mail{
+	font-size:12px;
+	padding: 14px 9px 0px 25px;
+}
+.copyright{
+	border-top: 1px solid  #E5E5E5;
+}
+.icon i{
+	color:#98989e;
+	padding-left:20px;
+}
+.fb ul,.term{
+	list-style: none;
+	padding:0;
+}
+.tweet h5,.fb h5{
+	border-bottom: 1px dashed #E5E5E5;
+    font-family: times new roman;
+}
+.tweet button i,.fb button i{
+	color:#39ad98;
+}
+.tweet button i span,.fb button i span{
+	font-size:15px;
+}
+.tweet button,.fb button{
+	width:100%;
+	height:35px;
+	background-color: white;
+	padding-right:80px;	
+}
+.tweet h5{
+    margin-top:70px;
+    }
+.firstPara{
+    position: absolute;
+    top: 333px;
+    font-size: 20px;
+    background: white;
+    color: black;
+    padding: 9px;
+}
+.secondPara{
+   position: absolute;
+  top:380px;
+  font-size:14px;
+  background:black;
+  color:white;
+  padding:7px;
+}
+.term li{
+	float:left;
+}
+.term li{
+	border-right: 1px solid #ccc;
+	padding:3px;
+}
+.term li:last-child{
+	border-right:none;
+}
+.copyright{
+   	padding-left: 0;
+    padding-right: 0;
+    margin:0;
+}
+.icon, .icon i{
+   	padding:0;
+}
+.icon{
+   	padding: 11px 0px 0px 90px;
+}
+.colors{
+	padding:10px;
+}
+.btn i span{
+	padding-left:5px;
+}
+.subbtn{
+    background-color: #d4d4d4;
+}
+.meta{
+	color:#aaa;
+}
+.submit{
+	padding:5px;
+	border-radius:5px;
+	font-size: 12px;
+	font-weight:bold;
+}
+.email{
+	width:160px;
+	height:25px;
+}
+.meta span{
+  border-bottom: 1px dashed #E5E5E5;
+}
+/*desktop*/
+@media only screen and (min-width:767px) and (max-width:1030px){
+   ul li:nth-child(n){
+		margin:0;
+    }
+   .navbar-nav ul,.food{
+    	float:left;
+    }
+    
+    .align,.section{
+  	padding:30px;
+    }
+    
+    .sub-div{
+    	margin-top:18px;
+    }
+   .section,.tilesection{
+    	padding-top:0;
+    	padding-bottom: 0;
+    }
+    .newsletter{
+    	padding:0;
+
+    }
+   .copyright{
+   	padding-left: 0;
+    padding-right: 0;
+    margin:0;
+   }
+  .icon, .icon i{
+   	padding:0;
+   }
+   .icon{
+   	padding: 11px 0px 0px 90px;
+   }
+
+   	.news button{
+	margin-left:12px;
+   }
+   .first-slide,.slide3,.slide2{
+    	padding-left:0;
+    }
+   .last-slide{
+    	padding-right:0;
+    }
+    .policy{
+	padding:0;s
+	margin:0;
+	font-size:13px;
+   }
+	.copyright{
+		padding:0;
+	}
+	.colors{
+		padding:10px;
+	}
+}
+/*tablet*/
+@media only screen and (min-width: 768px) and (max-width:868px) {
+   .logo-container img{
+    	width:80%;
+    	margin:0;
+    	float:left;
+     }
+	 .col-sm-8 ul{
+    	display: inline-flex;
+    }
+     .fa{
+	margin-left: 10px;
+    }
+    
+    .icon{
+   	padding:11px 0px 0px 80px;
+   }
+   .nav li a h5{
+   	font-size: 18px;
+    margin-bottom: 23px;
+    text-align:center;
+   }
+   .copyright{
+   	padding:0;
+   }
+   .colors{
+   	padding:10px;
+   }
+   .news{
+   	padding-left:0;
+   }
+   .tweet,.fb,.block li a p{
+   	  display: none;
+   }
+    .align,.section{
+  	padding:30px;
+    }
+    .section{
+    	padding-top: 0;
+    }
+}
+/*mobile*/
+@media only screen and (min-width: 320px) and (max-width:720px){
+	.logo-container img{
+		width:40%;
+		margin:0;
+		margin-left:80px;
+	}
+	.slides{
+    	padding:10px;
+    }
+	.food{
+		width:100%;
+		height:200px;
+	}
+    ul li{
+    	float:left;
+    	display: inline;
+    }  
+
+    .main-div{
+         display: flex;
+         flex-direction: column;
+     }
+	#main{
+     	order:2;
+    }
+    #sub{
+        order:1;
+     	margin: 0 auto;
+  	    padding: 0;
+     	border-bottom: 1px solid #e5e5e5;
+     }
+    ul li{
+        padding-left: 0px;
+      	font-family: ff-tisa-web-pro, Georgia, sans-serif;
+       	color:#34ac98;
+    }
+    ul{
+       text-align: center;
+    }
+    ul li:nth-child(n){
+        float:left;
+    	margin:0;
+  	}
+    .nav li a{
+        padding: 13px 5px;
+    }
+       
+    li{
+       font-size: 12px;
+    }
+    .hided {
+        display:none;
+    }
+    .row{
+	    padding: 0;
+    }
+    .tweet,.fb,.block li a {
+    	display:none;
+    }
+    .newsletter p,.news,.mail{
+	font-size:10px;
+	
+    }
+    .mail,.subscribe{
+    	padding:10px;
+    }
+    .newsletter{
+    	padding-right: 0;
+    }
+    .news{
+    	padding-top:0;
+    }
+
+    .nav li a,.color,.colors h6{
+    font-size: 13px;
+    }
+   .icon,.icon i{
+   	padding:0;
+   }
+   .icon{
+   	padding-top:17px;
+    }
+   .firstPara{
+   	position:absolute;
+    top: 140px;
+    font-size: 15px;
+    background:rgba(255,255,255,0.6);
+    color: black;
+    padding: 9px;
+    width: 90%;
+    }
+	.secondPara{
+	  position: absolute;
+	    top: 175px;
+	    font-size: 8px;
+	    background: black;
+	    color: white;
+	    padding: 7px;
+	    width: 90%;
+	}
+	.policy{
+		margin:0;
+		padding-top:10px;
+	}
+	.copyright{
+		padding:0;
+		margin:0;
+	}
+	.colors{
+		padding:5px;
+		
+	}
+	.term li,.colors p{
+		font-size:11px;
+	}
+	.submit{
+		padding:3px;
+		margin-left:10px;
+	}
+	.email{
+		height:20px;
+		width:120px;
+	}
+	
+}
